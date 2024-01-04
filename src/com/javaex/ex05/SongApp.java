@@ -12,6 +12,7 @@ public class SongApp {
 		s.setTrack(3);
 		s.setComposer("이민수");
 		
+		System.out.println(s.toString());
 		s.showInfo();
 		
 		Song o=new Song();
