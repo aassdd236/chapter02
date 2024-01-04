@@ -15,9 +15,10 @@ public class PointApp {
 		Point p2=new Point(100, 100);
 		System.out.println(p2.toString());
 		
-		p1.draw();
-		p2.draw();
+		p1.draw(true);
+		p2.draw(false);
 		System.out.println(p2.getX());
+
 	}
 
 }
