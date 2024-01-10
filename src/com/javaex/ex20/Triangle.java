@@ -47,7 +47,6 @@ public class Triangle extends Shape {
 	public void setFillColor(String fillColor) {
 		this.fillColor = fillColor;
 	}
-	
 	//메소드
 	@Override
 	public String toString() {
