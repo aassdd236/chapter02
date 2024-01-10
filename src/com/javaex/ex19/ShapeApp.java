@@ -19,6 +19,12 @@ public class ShapeApp {
 		for(int i=0; i<sArray.length; i++) {
 			sArray[i].draw();
 		}
+		
+		//사각형의 가로값 가져요기
+		System.out.println(((Ractangle) sArray[0]).getWidth());
+		
+		//원의 반지름
+		System.out.println(((Circle)sArray[2]).getRadius());
 	}
 
 }
