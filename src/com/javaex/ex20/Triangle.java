@@ -63,6 +63,9 @@ public class Triangle extends Shape {
 	    System.out.println("선색:" + lineColor);
 	    System.out.println("============================");
 	}
-	
+	public double area() {
+		return height*width/2;
+		
+	}
 
 }

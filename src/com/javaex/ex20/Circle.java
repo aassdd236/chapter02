@@ -50,4 +50,8 @@ public class Circle extends Shape{
 	    System.out.println("선색:" + lineColor);
 	    System.out.println("============================");
 	}
+	public double area() {
+		return radius*radius*3.14;
+		
+	}
 }
